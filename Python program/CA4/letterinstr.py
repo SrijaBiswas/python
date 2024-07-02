@@ -1,0 +1,5 @@
+str=input("Enter String : ")
+s=''.join(sorted(set(str))).strip()
+print(s)
+s1=''.join(sorted(str))
+print(s1)
